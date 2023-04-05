@@ -10,8 +10,8 @@ public class OlxReproBackendApplication {
 
 	public static void main(String[] args) throws ClassNotFoundException {
 		SpringApplication.run(OlxReproBackendApplication.class, args);
-		ConnectionFactory conect = new ConnectionFactory();
-		conect.connection();
+		ConnectionFactory connect_db = new ConnectionFactory();
+		connect_db.connection();
 	}
 
 }
